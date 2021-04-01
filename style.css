@@ -12,11 +12,11 @@ body {
   text-align: right;
 }
 
-.aaa img {
+.aaa__img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.aaa__more-inf {
   font-family: fantasy, cursive;
 }
   
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
   
-.task-row-wrapper {
+.task__row-wrapper {
   display: flex;
 }
   
@@ -108,7 +108,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
   
-input#new-task {
+#new-task {
   width: 318px;
 }
   
@@ -149,7 +149,7 @@ li > button.delete:hover {
   color: #cf2323;
 }
   
-button.delete img {
+button.delete  img {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
