@@ -5,30 +5,30 @@ body {
   font-family: Lato, sans-serif;
 }
   
-.aaa {
+.appHead {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa__img {
+.appHead__img {
   width: 100%;
 }
 
-.aaa__more-inf {
+.appHead__more-inf {
   font-family: fantasy, cursive;
 }
   
 @media (max-width:768px) {
 
-  .aaa { 
+  .appHead { 
     text-align: center;
   }
 
 }
   
-.centered-main-page-element {
+.appBody {
   display: block;
   width: 500px;
   margin: 0 auto 0;
